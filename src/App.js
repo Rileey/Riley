@@ -1,12 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Firstpage from './components/firstpage';
+import Navbar from './components/navbar';
+import Container from './components/container';
+import Portfolio from './components/portfolio';
+import Contact from './components/contact';
+import Footer from './components/footer';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Hi I'm Riley</h1>
+      <header>
+        <Navbar />
       </header>
+      <main>
+        <Container />
+        <Firstpage />
+        <Portfolio />
+        <Contact />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -1,0 +1,170 @@
+.firstpage-container {
+    background-color: #151515;
+    width: 100%;
+}
+
+.header {
+    /* background-color: rgb(247 232 232 / 51%); */
+    width: 80%;
+    margin: 0 auto;
+    /* height: 70vh; */
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+
+
+.service-offers {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px 0;
+}
+
+.myservices-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.service {
+    color: white;
+    display: flex;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+    transition: ease-in 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
+}
+
+.user-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    background-color: #1b1b1d;
+}
+
+.user-container:hover {
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    transition: all 0.2s;
+    background-color: #262628;
+}
+
+.frontend-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    background-color: #1b1b1d;
+}
+
+.frontend-container:hover {
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    transition: all 0.2s;
+    background-color: #262628;
+}
+
+.fab {
+    margin: 0 10px;
+}
+
+.fas {
+    margin: 0 10px;
+}
+
+.services {
+    margin: 10px 0;
+}
+
+.user-subtitles {
+    font-size: 15px;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px 0;
+    color: white;
+}
+
+.tech-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.techlist-item {
+    margin: 20px 0;
+}
+
+
+@media only screen and (max-width: 960px) { 
+    .header {
+        flex-direction: column-reverse;
+    }
+
+    .technology {
+        flex-direction: row;
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    .tech-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+    }
+
+    .techlist-item {
+        margin: 20px 10px;
+    }
+
+    .service-offers {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 570px) { 
+    .tech-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+
+    .service-offers {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        display: flex;
+        width: 95%;
+    }
+
+    .user-subtitles {
+        font-size: 12px;
+    }
+}

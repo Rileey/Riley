@@ -1,0 +1,123 @@
+.top-body-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 1;
+}
+
+.introduction {
+    display: flex;
+    padding-top: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+span {
+    margin: 10px 0;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.job-title {
+    font-size: 27px;
+    font-weight: 200;
+    color: white;
+    background-color: rgba(100, 148, 237, 0.432);
+    padding: 7px 15px;
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.image-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .under-introduction {
+    z-index: 1;
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: white; 
+ } 
+
+.hire-me {
+    margin: 20px 0;
+    color: rgba(100, 148, 237, 0.432);
+    font-size: 200px;
+    font-weight: 800;
+    transition: 0.2s;
+    position: absolute;
+    top: 10px;
+}
+
+.hire-me2 {
+    margin: 20px 0;
+    color: rgb(248, 222, 222);
+    font-size: 200px;
+    font-weight: 800;
+    transition: 0.2s;
+    position: absolute;
+    top: 10px;
+}
+
+.hire-me:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    top: 15px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 730px) {
+    .intro-container {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        width: 0;
+    }
+
+    .image-container > img {
+        display: none;
+    }
+
+    .hire-me, .hire-me2 {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .job-subtitle {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .hire-me, .hire-me2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1540px) {
+    .hire-me, .hire-me2 {
+        font-size: 70px;
+    }
+}

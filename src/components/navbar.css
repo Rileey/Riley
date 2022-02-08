@@ -1,0 +1,45 @@
+.navbar-container {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.empty {
+    background-color: black;
+    padding: 1px 20px;
+}
+
+.menu-link {
+    margin: 0 10px;
+    transition: ease-in 0.4s;
+}
+
+.menu-link:hover {
+    cursor: pointer;
+    color: cornflowerblue;
+    transition: ease-in 0.4s;
+}
+
+@media only screen and (max-width: 500px) {
+.navbar {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+}
