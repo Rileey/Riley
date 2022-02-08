@@ -18,8 +18,8 @@ const Firstpage = () => {
                         <i class="fab fa-figma"></i>
                     </span>
                     <span className="user-subtitles">
-                    I work with certain design tools to create high-fidelity designs and prototypes. 
-                    I design accessible and usable products which aid business growth
+                    I use design tools to create designs and prototypes to suit your needs. 
+                    I design beautiful products for better user experience
                     </span>
                 </div>
             </div>
