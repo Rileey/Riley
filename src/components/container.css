@@ -60,27 +60,27 @@ span {
 .hire-me {
     margin: 20px 0;
     color: rgba(100, 148, 237, 0.432);
-    font-size: 200px;
+    font-size: 100px;
     font-weight: 800;
     transition: 0.2s;
     position: absolute;
-    top: 10px;
+    top: 0px;
 }
 
 .hire-me2 {
     margin: 20px 0;
     color: rgb(248, 222, 222);
-    font-size: 200px;
+    font-size: 100px;
     font-weight: 800;
     transition: 0.2s;
     position: absolute;
-    top: 10px;
+    top: 0px;
 }
 
 .hire-me:hover {
     cursor: pointer;
     transition: 0.2s;
-    top: 15px;
+    top: 5px;
     margin-right: 5px;
 }
 
@@ -104,6 +104,12 @@ span {
     }
 }
 
+@media only screen and (min-width: 1540px) {
+    .hire-me, .hire-me2 {
+        font-size: 70px;
+    }
+}
+
 @media only screen and (max-width: 690px) {
     .job-subtitle {
         font-size: 13px;
@@ -114,10 +120,10 @@ span {
     .hire-me, .hire-me2 {
         font-size: 50px;
     }
-}
-
-@media only screen and (min-width: 1540px) {
-    .hire-me, .hire-me2 {
-        font-size: 70px;
+    .name {
+        font-size: 25px;
+    }
+    .job-title {
+        font-size: 20px;
     }
 }

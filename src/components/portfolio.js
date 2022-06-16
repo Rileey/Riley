@@ -13,12 +13,12 @@ const Portfolio = () => {
             </span>
           </div>
           <div className="portfolio">
-              <div className="work">
+          <div className="work">
                 <div className="work-image-container">
-                    <a href="https://serene-hypatia-a29102.netlify.app/"><img className="img" src="./film-club.PNG" alt="film-club" /></a>
+                    <a href="https://www.figma.com/file/MYgtZTcvVWcoifssRNWhvn/foodine?node-id=0%3A1"><img className="img" src="./foodine-figma.PNG" alt="film-club" /></a>
                 </div>
                 <span className="work-title">
-                    Film Club Application
+                    Food Delivery Application: Figma
                 </span>
               </div>
               <div className="work">
@@ -30,6 +30,14 @@ const Portfolio = () => {
                 </span>
               </div>
               <div className="work">
+                 <div className="work-image-container">
+                    <a href="https://lendie-loan-app.vercel.app/"><img src="./loan.PNG" alt="loan-app" className="img" /></a>
+                </div> 
+                <span className="work-title">
+                    Lendie Loan App
+                </span>
+              </div>
+              <div className="work">
                 <div className="work-image-container">
                    <a href="https://views.talentcroft.com/"><img src="./talentcroft.PNG" alt="talentcroft" className="img" /></a>
                 </div>
@@ -37,6 +45,7 @@ const Portfolio = () => {
                     Video Streaming Platform
                 </span>
               </div>
+              
           </div>
       </section>
       
