@@ -31,6 +31,9 @@ const Firstpage = () => {
                             <i class="fab fa-react"></i>
                             <i class="fab fa-node"></i>
                             <i class="fas fa-database"></i>
+                            <i class="fab fa-aws"></i>
+                            <i class="fab fa-git"></i>
+                            <i class="fab fa-laravel"></i>
                         </span>
                         <span className="user-subtitles">
                         I create functional and beautiful applications that
@@ -51,11 +54,13 @@ const Firstpage = () => {
             <div className="tech-list">
                 <span className="techlist-item"><i class="fas fa-check"></i>JavaScript</span>
                 <span className="techlist-item"><i class="fas fa-check"></i>React</span>
-                <span className="techlist-item"><i class="fas fa-check"></i>Node</span>
+                <span className="techlist-item"><i class="fas fa-check"></i>NextJs</span>
+                <span className="techlist-item"><i class="fas fa-check"></i>NodeJs</span>
+                <span className="techlist-item"><i class="fas fa-check"></i>Laravel</span>
                 <span className="techlist-item"><i class="fas fa-check"></i>Express</span>
                 <span className="techlist-item"><i class="fas fa-check"></i>MongoDB</span>
                 <span className="techlist-item"><i class="fas fa-check"></i>My SQL</span>
-                <span className="techlist-item"><i class="fas fa-check"></i>Wordpress</span>
+                <span className="techlist-item"><i class="fas fa-check"></i>PostgreSQL</span>
                 <span className="techlist-item"><i class="fas fa-check"></i>Figma</span>
                 <span className="techlist-item"><i class="fas fa-check"></i>Adobe Xd</span>
             </div>
