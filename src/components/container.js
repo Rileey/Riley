@@ -11,7 +11,7 @@ const Container = () => {
             <span className="hello">Hi 👋🏾, I'm</span>
             <span className="name">Deji Omoloja</span>
             <span className="job-title">Software Developer </span>
-            <span className="job-subtitle">As a highly skilled and adaptable software developer with a strong track record of delivering innovative solutions, I offer you a valuable combination of technical expertise and cross-cultural understanding to drive your projects to success in a global market 
+            <span className="job-subtitle">As a highly skilled and adaptable software developer with a strong track record of delivering innovative solutions, I offer a valuable combination of technical expertise and cross-cultural understanding to drive your projects to success in a global market 
             </span>
         </article>
         <div className="image-container">

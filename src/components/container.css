@@ -30,6 +30,7 @@ span {
 .deji-image {
     height: 350px;
     width: 250px;
+    border-radius: 100px;
 }
 
 .developer {
@@ -125,9 +126,22 @@ span {
     }
 }
 
-@media only screen and (min-width: 730px) {
+@media only screen and (min-width: 800px) {
     .hire-me, .hire-me2 {
         font-size: 60px;
+    }
+
+    .top-body-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .name {
+        font-size: 40px;
     }
 }
 
@@ -139,14 +153,22 @@ span {
     .top-body-container {
         display: flex;
         flex-direction: column;
-        height: 70vh;
+        height: 100vh;
         z-index: 1;
     }
 }
 
+@media only screen and (min-width: 695px) {
+    .job-subtitle {
+        font-size: 16px;
+    }
+}
+
+
+
 @media only screen and (max-width: 570px) {
     .hire-me, .hire-me2 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .name {
         font-size: 25px;

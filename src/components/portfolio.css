@@ -1,7 +1,6 @@
 .portfolio-div {
-    background-color: #151515;
+    background-color: rgba(100, 148, 237, 0.432);
     display: flex;
-    /* background-color: rgb(164, 231, 164); */
 }
 
 .portfolio {

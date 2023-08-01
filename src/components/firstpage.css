@@ -1,5 +1,5 @@
 .firstpage-container {
-    background-color: #151515;
+    background-color: rgba(100, 148, 237, 0.432);
     width: 100%;
 }
 
@@ -54,13 +54,13 @@
     padding: 30px;
     border-radius: 5px;
     transition: all 0.2s;
-    background-color: #1b1b1d;
+    background-color: rgba(100, 148, 237, 0.432);
 }
 
 .user-container:hover {
-    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     transition: all 0.2s;
-    background-color: #262628;
+    background-color: rgba(100, 148, 237, 0.232);
 }
 
 .frontend-container {
@@ -70,13 +70,13 @@
     padding: 30px;
     border-radius: 5px;
     transition: all 0.2s;
-    background-color: #1b1b1d;
+    background-color: rgba(100, 148, 237, 0.432);
 }
 
 .frontend-container:hover {
-    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     transition: all 0.2s;
-    background-color: #262628;
+    background-color: rgba(100, 148, 237, 0.232);
 }
 
 .fab {

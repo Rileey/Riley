@@ -1,5 +1,5 @@
 .contact-container {
-    background-color: #151515;
+    background-color: #000000;
     display: flex;
 }
 
@@ -70,7 +70,7 @@
     padding: 10px 30px;
     border-radius: 30px;
     border: 1px solid white;
-    background-color: #151515;
+    background-color: #000000;
     outline: none;
 }
 
