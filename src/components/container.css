@@ -27,6 +27,11 @@ span {
     font-weight: 700;
 }
 
+.deji-image {
+    height: 350px;
+    width: 250px;
+}
+
 .developer {
     background-color: rgba(100, 148, 237, 0.432);
     padding: 1px 5px;
@@ -120,9 +125,22 @@ span {
     }
 }
 
+@media only screen and (min-width: 730px) {
+    .hire-me, .hire-me2 {
+        font-size: 60px;
+    }
+}
+
 @media only screen and (max-width: 690px) {
     .job-subtitle {
         font-size: 13px;
+    }
+
+    .top-body-container {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        z-index: 1;
     }
 }
 

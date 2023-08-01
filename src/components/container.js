@@ -15,13 +15,13 @@ const Container = () => {
             </span>
         </article>
         <div className="image-container">
-            <img src="./Cartoonify-deji.png" alt="Riley" />
+            <img className='deji-image' src="./deji.png" alt="Riley" />
         </div>
       </main>
       <section className="under-introduction">
         <Link to="contact" style={{display: "contents", position: "relative"}} smooth={true} duration={1000}>
-            <span className="hire-me2">Hire Me</span>
-            <span className="hire-me">Hire Me</span>
+            <span className="hire-me2">Let's talk</span>
+            <span className="hire-me">Let's talk</span>
         </Link>
       </section>
   </div>);
