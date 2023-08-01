@@ -100,11 +100,27 @@ span {
     margin-right: 5px;
 }
 
+@media only screen and (min-width: 730px) {
+    .introduction {
+        display: flex;
+        margin: 0 auto;
+        padding-top: 200px;
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 730px) {
     .intro-container {
         width: 80%;
         display: flex;
         margin: 0 auto;
+    }
+
+    .introduction {
+        display: flex;
+        margin: 0 auto;
+        padding-top: 200px;
+        width: 100%;
     }
 
     .image-container {
