@@ -27,6 +27,12 @@ span {
     font-weight: 700;
 }
 
+.developer {
+    background-color: rgba(100, 148, 237, 0.432);
+    padding: 1px 5px;
+    color: white;
+}
+
 .job-title {
     font-size: 27px;
     font-weight: 200;
@@ -36,6 +42,10 @@ span {
     display: flex;
     width: fit-content;
     border-radius: 5px;
+}
+
+.job-subtitle {
+    font-size: 20px;
 }
 
 .image-container {

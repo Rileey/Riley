@@ -13,7 +13,7 @@ const Portfolio = () => {
         {
             title: 'Food Delivery Application',
             link: 'https://foodinemealapp.herokuapp.com/',
-            image: './foodine.PNG'
+            image: './foodine.jpg'
         },
         {
             title: 'Lendie Loan App',
@@ -28,7 +28,7 @@ const Portfolio = () => {
         {
             title: 'Grid Platform',
             link: 'https://www.getgrid.xyz/',
-            image: './talentx.PNG'
+            image: './talentx.jpg'
         }
     ]
   return (
@@ -48,30 +48,6 @@ const Portfolio = () => {
                     {work?.title}
                 </span>
               </div>)}
-              {/* <div className="work">
-                 <div className="work-image-container">
-                    <a href="https://foodinemealapp.herokuapp.com/"><img src="./foodine.PNG" alt="foodine" className="img" /></a>
-                </div> 
-                <span className="work-title">
-                    Food Delivery Application
-                </span>
-              </div> */}
-              {/* <div className="work">
-                 <div className="work-image-container">
-                    <a href="https://lendie-loan-app.vercel.app/"><img src="./loan.PNG" alt="loan-app" className="img" /></a>
-                </div> 
-                <span className="work-title">
-                    Lendie Loan App
-                </span>
-              </div> */}
-              {/* <div className="work">
-                <div className="work-image-container">
-                   <a href="https://views.talentcroft.com/"><img src="./talentcroft.PNG" alt="talentcroft" className="img" /></a>
-                </div>
-                <span className="work-title">
-                    Video Streaming Platform
-                </span>
-              </div> */}
           </div>
       </section>
       
